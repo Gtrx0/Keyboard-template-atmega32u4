@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name hotswap)(type KiCad)(uri ${KIPRJMOD}/keyswitches.pretty-master)(options "")(descr ""))
+)

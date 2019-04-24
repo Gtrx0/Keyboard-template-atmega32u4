@@ -1,53 +1,186 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Type-C:HRO-TYPE-C-31-M-12
+# MX_Alps_Hybrids_MX-1.25U
 #
-DEF Type-C:HRO-TYPE-C-31-M-12 USB 0 40 Y Y 1 F N
-F0 "USB" -200 650 60 H V C CNN
-F1 "Type-C:HRO-TYPE-C-31-M-12" -400 -50 60 V V C CNN
-F2 "" 0 0 60 H I C CNN
-F3 "" 0 0 60 H I C CNN
+DEF MX_Alps_Hybrids_MX-1.25U MX 0 40 Y Y 1 F N
+F0 "MX" 0 125 60 H V C CNN
+F1 "MX_Alps_Hybrids_MX-1.25U" 0 50 20 H V C CNN
+F2 "" -25 -25 60 H I C CNN
+F3 "" -25 -25 60 H I C CNN
 DRAW
-S -450 600 -350 -700 0 1 0 f
-S 0 -700 -350 600 0 1 0 f
-X GND 1 100 550 100 L 50 50 1 1 I
-X CC2 10 100 -350 100 L 50 50 1 1 I
-X VBUS 11 100 -450 100 L 50 50 1 1 I
-X GND 12 100 -550 100 L 50 50 1 1 I
-X SHIELD 13 100 -650 100 L 50 50 1 1 I
-X VBUS 2 100 450 100 L 50 50 1 1 I
-X SBU2 3 100 350 100 L 50 50 1 1 I
-X CC1 4 100 250 100 L 50 50 1 1 I
-X DN2 5 100 150 100 L 50 50 1 1 I
-X DP1 6 100 50 100 L 50 50 1 1 I
-X DN1 7 100 -50 100 L 50 50 1 1 I
-X DP2 8 100 -150 100 L 50 50 1 1 I
-X SBU1 9 100 -250 100 L 50 50 1 1 I
+C 30 -30 14 0 0 5 N
+T 0 175 75 30 0 0 0 1-COL Normal 0 C C
+T 0 175 -25 30 0 0 0 LED Normal 0 C C
+T 900 -25 -200 30 0 0 0 ROW Normal 0 R C
+T 900 25 -150 30 0 1 0 LEDGND Normal 0 R C
+S 75 -75 -75 75 0 0 5 N
+P 2 0 0 5 -25 -75 -25 25 N
+P 2 0 0 5 25 -75 25 -50 N
+P 2 0 0 5 75 -25 50 -25 N
+P 3 0 0 5 75 25 25 25 -25 50 N
+X COL 1 175 25 100 L 0 0 1 1 P
+X ROW 2 -25 -175 100 U 0 0 1 1 P
+X LED 3 125 -25 50 L 0 0 1 1 P
+X LEDGND 4 25 -125 50 U 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
-# ai03-locallib:PRTR5V0U2X
+# MX_Alps_Hybrids_MX-1.5U
 #
-DEF ai03-locallib:PRTR5V0U2X U 0 40 Y Y 1 F N
-F0 "U" 0 150 60 H V C CNN
-F1 "ai03-locallib:PRTR5V0U2X" 0 -150 60 H V C CNN
-F2 "" 0 0 60 H I C CNN
-F3 "" 0 0 60 H I C CNN
+DEF MX_Alps_Hybrids_MX-1.5U MX 0 40 Y Y 1 F N
+F0 "MX" 0 125 60 H V C CNN
+F1 "MX_Alps_Hybrids_MX-1.5U" 0 50 20 H V C CNN
+F2 "" -25 -25 60 H I C CNN
+F3 "" -25 -25 60 H I C CNN
 DRAW
-S -200 100 200 -100 0 1 0 f
-X GND 1 -300 50 100 R 50 50 1 1 I
-X IO1 2 -300 -50 100 R 50 50 1 1 I
-X IO2 3 300 -50 100 L 50 50 1 1 I
-X VCC 4 300 50 100 L 50 50 1 1 I
+C 30 -30 14 0 0 5 N
+T 0 175 75 30 0 0 0 1-COL Normal 0 C C
+T 0 175 -25 30 0 0 0 LED Normal 0 C C
+T 900 -25 -200 30 0 0 0 ROW Normal 0 R C
+T 900 25 -150 30 0 1 0 LEDGND Normal 0 R C
+S 75 -75 -75 75 0 0 5 N
+P 2 0 0 5 -25 -75 -25 25 N
+P 2 0 0 5 25 -75 25 -50 N
+P 2 0 0 5 75 -25 50 -25 N
+P 3 0 0 5 75 25 25 25 -25 50 N
+X COL 1 175 25 100 L 0 0 1 1 P
+X ROW 2 -25 -175 100 U 0 0 1 1 P
+X LED 3 125 -25 50 L 0 0 1 1 P
+X LEDGND 4 25 -125 50 U 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
-# atmel:ATmega32U4
+# MX_Alps_Hybrids_MX-1.75U
 #
-DEF atmel:ATmega32U4 U 0 40 Y Y 1 F N
+DEF MX_Alps_Hybrids_MX-1.75U MX 0 40 Y Y 1 F N
+F0 "MX" 0 125 60 H V C CNN
+F1 "MX_Alps_Hybrids_MX-1.75U" 0 50 20 H V C CNN
+F2 "" -25 -25 60 H I C CNN
+F3 "" -25 -25 60 H I C CNN
+DRAW
+C 30 -30 14 0 0 5 N
+T 0 175 75 30 0 0 0 1-COL Normal 0 C C
+T 0 175 -25 30 0 0 0 LED Normal 0 C C
+T 900 -25 -200 30 0 0 0 ROW Normal 0 R C
+T 900 25 -150 30 0 1 0 LEDGND Normal 0 R C
+S 75 -75 -75 75 0 0 5 N
+P 2 0 0 5 -25 -75 -25 25 N
+P 2 0 0 5 25 -75 25 -50 N
+P 2 0 0 5 75 -25 50 -25 N
+P 3 0 0 5 75 25 25 25 -25 50 N
+X COL 1 175 25 100 L 0 0 1 1 P
+X ROW 2 -25 -175 100 U 0 0 1 1 P
+X LED 3 125 -25 50 L 0 0 1 1 P
+X LEDGND 4 25 -125 50 U 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# MX_Alps_Hybrids_MX-1U
+#
+DEF MX_Alps_Hybrids_MX-1U MX 0 40 Y Y 1 F N
+F0 "MX" 0 125 60 H V C CNN
+F1 "MX_Alps_Hybrids_MX-1U" 0 50 20 H V C CNN
+F2 "" -25 -25 60 H I C CNN
+F3 "" -25 -25 60 H I C CNN
+DRAW
+C 30 -30 14 0 0 5 N
+T 0 175 75 30 0 0 0 1-COL Normal 0 C C
+T 0 175 -25 30 0 0 0 LED Normal 0 C C
+T 900 -25 -200 30 0 0 0 ROW Normal 0 R C
+T 900 25 -150 30 0 1 0 LEDGND Normal 0 R C
+S 75 -75 -75 75 0 0 5 N
+P 2 0 0 5 -25 -75 -25 25 N
+P 2 0 0 5 25 -75 25 -50 N
+P 2 0 0 5 75 -25 50 -25 N
+P 3 0 0 5 75 25 25 25 -25 50 N
+X COL 1 175 25 100 L 0 0 1 1 P
+X ROW 2 -25 -175 100 U 0 0 1 1 P
+X LED 3 125 -25 50 L 0 0 1 1 P
+X LEDGND 4 25 -125 50 U 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# MX_Alps_Hybrids_MX-2.25U
+#
+DEF MX_Alps_Hybrids_MX-2.25U MX 0 40 Y Y 1 F N
+F0 "MX" 0 125 60 H V C CNN
+F1 "MX_Alps_Hybrids_MX-2.25U" 0 50 20 H V C CNN
+F2 "" -25 -25 60 H I C CNN
+F3 "" -25 -25 60 H I C CNN
+DRAW
+C 30 -30 14 0 0 5 N
+T 0 175 75 30 0 0 0 1-COL Normal 0 C C
+T 0 175 -25 30 0 0 0 LED Normal 0 C C
+T 900 -25 -200 30 0 0 0 ROW Normal 0 R C
+T 900 25 -150 30 0 1 0 LEDGND Normal 0 R C
+S 75 -75 -75 75 0 0 5 N
+P 2 0 0 5 -25 -75 -25 25 N
+P 2 0 0 5 25 -75 25 -50 N
+P 2 0 0 5 75 -25 50 -25 N
+P 3 0 0 5 75 25 25 25 -25 50 N
+X COL 1 175 25 100 L 0 0 1 1 P
+X ROW 2 -25 -175 100 U 0 0 1 1 P
+X LED 3 125 -25 50 L 0 0 1 1 P
+X LEDGND 4 25 -125 50 U 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# MX_Alps_Hybrids_MX-2.75U
+#
+DEF MX_Alps_Hybrids_MX-2.75U MX 0 40 Y Y 1 F N
+F0 "MX" 0 125 60 H V C CNN
+F1 "MX_Alps_Hybrids_MX-2.75U" 0 50 20 H V C CNN
+F2 "" -25 -25 60 H I C CNN
+F3 "" -25 -25 60 H I C CNN
+DRAW
+C 30 -30 14 0 0 5 N
+T 0 175 75 30 0 0 0 1-COL Normal 0 C C
+T 0 175 -25 30 0 0 0 LED Normal 0 C C
+T 900 -25 -200 30 0 0 0 ROW Normal 0 R C
+T 900 25 -150 30 0 1 0 LEDGND Normal 0 R C
+S 75 -75 -75 75 0 0 5 N
+P 2 0 0 5 -25 -75 -25 25 N
+P 2 0 0 5 25 -75 25 -50 N
+P 2 0 0 5 75 -25 50 -25 N
+P 3 0 0 5 75 25 25 25 -25 50 N
+X COL 1 175 25 100 L 0 0 1 1 P
+X ROW 2 -25 -175 100 U 0 0 1 1 P
+X LED 3 125 -25 50 L 0 0 1 1 P
+X LEDGND 4 25 -125 50 U 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# MX_Alps_Hybrids_MX-2U
+#
+DEF MX_Alps_Hybrids_MX-2U MX 0 40 Y Y 1 F N
+F0 "MX" 0 125 60 H V C CNN
+F1 "MX_Alps_Hybrids_MX-2U" 0 50 20 H V C CNN
+F2 "" -25 -25 60 H I C CNN
+F3 "" -25 -25 60 H I C CNN
+DRAW
+C 30 -30 14 0 0 5 N
+T 0 175 75 30 0 0 0 1-COL Normal 0 C C
+T 0 175 -25 30 0 0 0 LED Normal 0 C C
+T 900 -25 -200 30 0 0 0 ROW Normal 0 R C
+T 900 25 -150 30 0 1 0 LEDGND Normal 0 R C
+S 75 -75 -75 75 0 0 5 N
+P 2 0 0 5 -25 -75 -25 25 N
+P 2 0 0 5 25 -75 25 -50 N
+P 2 0 0 5 75 -25 50 -25 N
+P 3 0 0 5 75 25 25 25 -25 50 N
+X COL 1 175 25 100 L 0 0 1 1 P
+X ROW 2 -25 -175 100 U 0 0 1 1 P
+X LED 3 125 -25 50 L 0 0 1 1 P
+X LEDGND 4 25 -125 50 U 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# PROJECT-rescue_ATmega32U4-atmel
+#
+DEF PROJECT-rescue_ATmega32U4-atmel U 0 40 Y Y 1 F N
 F0 "U" -900 1700 50 H V C CNN
-F1 "atmel:ATmega32U4" -650 -1550 50 H V C CNN
+F1 "PROJECT-rescue_ATmega32U4-atmel" -650 -1550 50 H V C CNN
 F2 "" 1200 1100 50 H I C CNN
 F3 "" 1200 1100 50 H I C CNN
 $FPLIST
@@ -103,11 +236,11 @@ X (SCLK/PCINT1)PB1 9 1200 1450 300 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# conn:Conn_02x03_Counter_Clockwise
+# PROJECT-rescue_Conn_02x03_Counter_Clockwise-conn
 #
-DEF conn:Conn_02x03_Counter_Clockwise J 0 40 Y N 1 F N
+DEF PROJECT-rescue_Conn_02x03_Counter_Clockwise-conn J 0 40 Y N 1 F N
 F0 "J" 50 200 50 H V C CNN
-F1 "conn:Conn_02x03_Counter_Clockwise" 50 -200 50 H V C CNN
+F1 "PROJECT-rescue_Conn_02x03_Counter_Clockwise-conn" 50 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -131,11 +264,53 @@ X Pin_6 6 300 100 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# device:C
+# Type-C_HRO-TYPE-C-31-M-12
 #
-DEF device:C C 0 10 N Y 1 F N
+DEF Type-C_HRO-TYPE-C-31-M-12 USB 0 40 Y Y 1 F N
+F0 "USB" -200 650 60 H V C CNN
+F1 "Type-C_HRO-TYPE-C-31-M-12" -400 -50 60 V V C CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+DRAW
+S -450 600 -350 -700 0 1 0 f
+S 0 -700 -350 600 0 1 0 f
+X GND 1 100 550 100 L 50 50 1 1 I
+X CC2 10 100 -350 100 L 50 50 1 1 I
+X VBUS 11 100 -450 100 L 50 50 1 1 I
+X GND 12 100 -550 100 L 50 50 1 1 I
+X SHIELD 13 100 -650 100 L 50 50 1 1 I
+X VBUS 2 100 450 100 L 50 50 1 1 I
+X SBU2 3 100 350 100 L 50 50 1 1 I
+X CC1 4 100 250 100 L 50 50 1 1 I
+X DN2 5 100 150 100 L 50 50 1 1 I
+X DP1 6 100 50 100 L 50 50 1 1 I
+X DN1 7 100 -50 100 L 50 50 1 1 I
+X DP2 8 100 -150 100 L 50 50 1 1 I
+X SBU1 9 100 -250 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# ai03-locallib_PRTR5V0U2X
+#
+DEF ai03-locallib_PRTR5V0U2X U 0 40 Y Y 1 F N
+F0 "U" 0 150 60 H V C CNN
+F1 "ai03-locallib_PRTR5V0U2X" 0 -150 60 H V C CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+DRAW
+S -200 100 200 -100 0 1 0 f
+X GND 1 -300 50 100 R 50 50 1 1 I
+X IO1 2 -300 -50 100 R 50 50 1 1 I
+X IO2 3 300 -50 100 L 50 50 1 1 I
+X VCC 4 300 50 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# device_C
+#
+DEF device_C C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "device:C" 25 -100 50 H V L CNN
+F1 "device_C" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -149,11 +324,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# device:C_Small
+# device_C_Small
 #
-DEF device:C_Small C 0 10 N N 1 F N
+DEF device_C_Small C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "device:C_Small" 10 -80 50 H V L CNN
+F1 "device_C_Small" 10 -80 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -167,11 +342,33 @@ X ~ 2 0 -100 80 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# device:Polyfuse_Small
+# device_D_Small
 #
-DEF device:Polyfuse_Small F 0 0 N Y 1 F N
+DEF device_D_Small D 0 10 N N 1 F N
+F0 "D" -50 80 50 H V L CNN
+F1 "device_D_Small" -150 -80 50 H V L CNN
+F2 "" 0 0 50 V I C CNN
+F3 "" 0 0 50 V I C CNN
+$FPLIST
+ TO-???*
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 -30 -40 -30 40 N
+P 2 0 1 0 -30 0 30 0 N
+P 4 0 1 0 30 -40 -30 0 30 40 30 -40 N
+X K 1 -100 0 70 R 50 50 1 1 P
+X A 2 100 0 70 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# device_Polyfuse_Small
+#
+DEF device_Polyfuse_Small F 0 0 N Y 1 F N
 F0 "F" -75 0 50 V V C CNN
-F1 "device:Polyfuse_Small" 75 0 50 V V C CNN
+F1 "device_Polyfuse_Small" 75 0 50 V V C CNN
 F2 "" 50 -200 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -187,11 +384,11 @@ X ~ 2 0 -100 25 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# device:Q_NPN_BCE
+# device_Q_NPN_BCE
 #
-DEF device:Q_NPN_BCE Q 0 0 Y N 1 F N
+DEF device_Q_NPN_BCE Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
-F1 "device:Q_NPN_BCE" 200 -50 50 H V L CNN
+F1 "device_Q_NPN_BCE" 200 -50 50 H V L CNN
 F2 "" 200 100 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -206,11 +403,11 @@ X E 3 100 -200 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# device:R
+# device_R
 #
-DEF device:R R 0 0 N Y 1 F N
+DEF device_R R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "device:R" 0 0 50 V V C CNN
+F1 "device_R" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -223,11 +420,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# device:R_Small
+# device_R_Small
 #
-DEF device:R_Small R 0 10 N N 1 F N
+DEF device_R_Small R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
-F1 "device:R_Small" 30 -40 50 H V L CNN
+F1 "device_R_Small" 30 -40 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -240,11 +437,11 @@ X ~ 2 0 -100 30 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# keyboard_parts:+5V
+# keyboard_parts_+5V
 #
-DEF keyboard_parts:+5V #PWR 0 0 Y Y 1 F P
+DEF keyboard_parts_+5V #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -30 20 H I C CNN
-F1 "keyboard_parts:+5V" 0 110 30 H V C CNN
+F1 "keyboard_parts_+5V" 0 110 30 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -254,11 +451,11 @@ X +5V 1 0 0 0 U 10 20 0 0 W N
 ENDDRAW
 ENDDEF
 #
-# keyboard_parts:SW_PUSH
+# keyboard_parts_SW_PUSH
 #
-DEF keyboard_parts:SW_PUSH SW 0 40 N N 1 F N
+DEF keyboard_parts_SW_PUSH SW 0 40 N N 1 F N
 F0 "SW" 150 110 50 H V C CNN
-F1 "keyboard_parts:SW_PUSH" 0 -80 50 H V C CNN
+F1 "keyboard_parts_SW_PUSH" 0 -80 50 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -269,11 +466,11 @@ X 2 2 300 0 200 L 60 60 0 1 P I
 ENDDRAW
 ENDDEF
 #
-# keyboard_parts:XTAL_GND
+# keyboard_parts_XTAL_GND
 #
-DEF keyboard_parts:XTAL_GND X 0 40 N N 1 F N
+DEF keyboard_parts_XTAL_GND X 0 40 N N 1 F N
 F0 "X" 0 150 60 H V C CNN
-F1 "keyboard_parts:XTAL_GND" 0 -150 60 H V C CNN
+F1 "keyboard_parts_XTAL_GND" 0 -150 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -286,11 +483,11 @@ X ~ 3 0 -200 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# power:GND
+# power_GND
 #
-DEF power:GND #PWR 0 0 Y Y 1 F P
+DEF power_GND #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power:GND" 0 -150 50 H V C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -299,11 +496,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# power:VCC
+# power_VCC
 #
-DEF power:VCC #PWR 0 0 Y Y 1 F P
+DEF power_VCC #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power:VCC" 0 150 50 H V C CNN
+F1 "power_VCC" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW

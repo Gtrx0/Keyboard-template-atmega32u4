@@ -1,0 +1,22 @@
+Quantity,Manufacture Part Number,Manufacturer(optional),Description(optional),LCSC Part Number(optional),Package(optional)
+1,,,C1,C50696 ,
+4,,,C2-C5,C38141 ,
+1,,,C6,C215803 ,
+X,,,Sw Diodes,"
+C33221",
+1,,,F1,C130286,
+1,,,NPNR1,C104004 ,
+1,,,Q1,C122850 ,
+2,,,"R1, R2",C25612 ,
+X,,,sw res,C102016 ,
+x,,,RGBR1,C102016 ,
+1,,,SW1,C331511 ,
+1,,,U1,C12333 ,
+1,,,U2,"
+C44854",
+2,,,"UR1, UR2",C26023 ,
+2,,,"UR3, UR4",C17514 ,
+1,,,UR5,C17514 ,
+1,,,USB1,C165948 ,
+1,,,USBCap1,C50696 ,
+1,,,X1, C341521,
